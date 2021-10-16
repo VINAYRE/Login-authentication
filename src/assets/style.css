@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Amarante&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    
+}
+body{
+    background-color: black;
+}
+
+.container{
+    min-height: 75vh;
+    color: wheat;
+    background-color: black;
+    display: flex;
+   
+}
+.column{
+    width: 80%;
+}
+nav{
+    font-family: 'Amarante', cursive;
+    opacity: 90%;
+    margin-bottom: 40px;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: bold;
+    
+    
+    
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    height: 65px;
+    background-color:0 0 10px rgb(250, 24, 8), 0 0 20px rgb(19, 243, 30), 0 0 30px ;
+    color:rgb(0, 217, 255);
+    opacity: 100%;
+    
+    box-shadow:  0 0 10px rgb(10, 156, 156), 0 0 20px rgb(53, 19, 243), 0 0 30px;
+    text-shadow:  0 0 10px rgb(10, 156, 156), 0 0 20px rgb(53, 19, 243), 0 0 30px;
+
+}
+
+
+nav ul li{
+    padding: 0 12px;
+    cursor: pointer;
+
+}
+
+.nav-img img{
+    height: 62px;
+    width: 73px;
+    margin-right: -37px;
+
+}
+.form-group{
+    font-family: 'Abril Fatface', cursive;
+    font-size: 2rem;
+    /* color: rgb(68, 68, 248); */
+    border-color: chartreuse;
+    width: 50%;
+    color:aqua;
+    text-shadow: 0 0 10px rgb(10, 156, 156), 0 0 20px rgb(53, 19, 243), 0 0 30px;
+    
+}
+
+.form-control{
+    box-shadow: 0 0 10px rgb(37, 108, 241), 0 0 20px rgb(240, 24, 193), 0 0 30px ;
+    width: 400px;
+}
+
+
+
+   
+   
+#emailHelp text{
+    color: rgb(51, 250, 33);
+}
+.button {
+    --glow-color: rgb(217, 176, 255);
+    --glow-spread-color: rgba(191, 123, 255, 0.781);
+    --enhanced-glow-color: rgb(231, 206, 255);
+    --btn-color: rgb(100, 61, 136);
+    outline: none;
+    border: .25em solid var(--glow-color);
+    padding: 1em 3em;
+    color: var(--glow-color);
+    font-size: 16px;
+    font-weight: bold;
+    background-color: var(--btn-color);
+    border-radius: 1em;
+    outline: none;
+    box-shadow: 0 0 1em .25em var(--glow-color),
+           0 0 4em 1em var(--glow-spread-color),
+           inset 0 0 .75em .25em var(--glow-color);
+    text-shadow: 0 0 .5em var(--glow-color);
+    position: relative;
+    transition: all 0.3s;
+    margin-top: 29px;
+    margin-left: 32px;
+    width: 171px;
+   }
+   
+   button::after {
+    pointer-events: none;
+    content: "";
+    position: absolute;
+    top: 120%;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: var(--glow-spread-color);
+    filter: blur(2em);
+    opacity: .7;
+    transform: perspective(1.5em) rotateX(35deg) scale(1, .6);
+   }
+   
+   button:hover {
+    color: var(--btn-color);
+    background-color: var(--glow-color);
+    box-shadow: 0 0 1em .25em var(--glow-color),
+           0 0 4em 2em var(--glow-spread-color),
+           inset 0 0 .75em .25em var(--glow-color);
+   }
+   
+   button:active {
+    box-shadow: 0 0 0.6em .25em var(--glow-color),
+           0 0 2.5em 2em var(--glow-spread-color),
+           inset 0 0 .5em .25em var(--glow-color);
+   }
+   .cover-img{
+       width: 50%;
+       opacity: 70%;
+       
+   }
+   
