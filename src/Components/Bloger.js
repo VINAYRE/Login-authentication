@@ -1,54 +1,61 @@
-import react from "react";
-import '../src/assets/bloger.css';
+import React, { Component } from "react";
 
+class Bloger extends Component {
+  imageOne = "http://via.placeholder.com/250";
 
-
-class Bloger extends react.Component{
-    render(){
-return(<>
-<nav className="Navbar-bloger">
-    <ul>
-        <li>Logout</li>
-        <li>Profile</li>
-    </ul>
-</nav><div className="instruction">
-<h1>Write Your Blog here</h1>
-</div>
-<div className="container">
-    
-
-<div class="row d-flex justify-content-center text-center">
-    
-    <div class="col-4">
-      
-    
-    <div className="title">
-        <h1>heyy!! this is my new blog!</h1>
-        <hr id="hr"/>
-        <div className="bodytext">
-            <span><p>sdcbjkdgvsvckbsjdh
-                skjdfhdkjvhdfkjvn</p>
-                <p>dkvjbdlfibvdfjkbkfn</p>
-                <p>sdcbjkdgvsvckbsjdh
-                skjdfhdkjvhdfkjvn</p>
-                <p>dkvjbdlfibvdfjkbkfn</p>
-                <p>sdcbjkdgvsvckbsjdh
-                skjdfhdkjvhdfkjvn</p>
-                <p>dkvjbdlfibvdfjkbkfn</p></span>
-                
+  render() {
+    return (
+      <div className="container mt-5">
+        <div className="row">
+          <div className="col-md-4">
+            <div className="card">
+              <div className="card-header">
+                <img src={this.imageOne} />
+              </div>
+              <div className="card-body">
+                <p>
+                  React is a free and open-source front-end JavaScript library
+                  for building user interfaces or UI components. It is
+                  maintained by Facebook and a community of individual
+                  developers and companies.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div className="col-md-4">
+            <div className="card">
+              <div className="card-header">
+                <img src={this.imageOne} />
+              </div>
+              <div className="card-body">
+                <p>
+                  React is a free and open-source front-end JavaScript library
+                  for building user interfaces or UI components. It is
+                  maintained by Facebook and a community of individual
+                  developers and companies.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div className="col-md-4">
+            <div className="card">
+              <div className="card-header">
+                <img src={this.imageOne} />
+              </div>
+              <div className="card-body">
+                <p>
+                  React is a free and open-source front-end JavaScript library
+                  for building user interfaces or UI components. It is
+                  maintained by Facebook and a community of individual
+                  developers and companies.
+                </p>
+              </div>
+            </div>
+          </div>
         </div>
-        
-    </div>
-    </div>
-    
-        </div>
-        
-    </div>
-    <div className="btns">
-    <button type="cancel" class="button">Cancel</button>
-    <button type="submit" class="button">Submit</button>
-    </div>
-</>)
-    }
+      </div>
+    );
+  }
 }
+
 export default Bloger;

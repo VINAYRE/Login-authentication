@@ -9,9 +9,7 @@ class Navbar extends React.Component {
             React Assignment
           </Link>
 
-          <Link to="/loginC" className="navbar-brand">
-            Login
-          </Link>
+          <Link to="/" className="navbar-brand"></Link>
         </nav>
       </>
     );
